@@ -1,0 +1,622 @@
+@media only screen and (min-width: 550px) {
+  .col-1-p {
+    width: 8.33%;
+  }
+  .col-2-p {
+    width: 16.66%;
+  }
+  .col-3-p {
+    width: 25%;
+  }
+  .col-4-p {
+    width: 33.33%;
+  }
+  .col-5-p {
+    width: 41.66%;
+  }
+  .col-6-p {
+    width: 50%;
+  }
+  .col-7-p {
+    width: 58.33%;
+  }
+  .col-8-p {
+    width: 66.66%;
+  }
+  .col-9-p {
+    width: 75%;
+  }
+  .col-10-p {
+    width: 83.33%;
+  }
+  .col-11-p {
+    width: 91.66%;
+  }
+  .col-12-p {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 888px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .chancei{
+    margin: 0;
+    width: 100px !important;
+    height: 100px !important;
+
+}
+.chancef{
+    height: 10%  !important;
+}
+.chanceco{
+    border: 1px solid #000 !important;
+    margin: 3% 18% !important;
+}
+.chanceco > section{
+    border: 0px  !important;
+}
+  .sgin-to {
+    display: none;
+  }
+  .phone-hide {
+    display: none !important;
+  }
+  .disk-hide {
+    display: block !important;
+  }
+
+  .icon{
+    display: none;
+  } 
+  .disicon{
+    display: inline-flex;
+} 
+  
+  /*Budu of the whole website*/
+  body {
+    background-color: #4b235f;
+  }
+  /*Container of the whole sebsite*/
+  #searchResult {
+    width: 80%;
+    height: calc(100% - 100px);
+    background-color: #fff;
+    margin: 0 10%;
+    margin-top: 100px;
+    padding: 10px 0;
+    visibility: visible;
+  }
+  .Error-Text {
+    font-size: 11px;
+    margin-bottom: 3px !important;
+  }
+
+  .rightProfileSection,
+  .leftProfileSection {
+    width: 50%;
+  }
+  .rightProfileSection {
+    border-left: 2px solid #ccc;
+  }
+  .leftProfileSection .containerBox {
+    width: 80% !important;
+    margin: 2.5% 10% !important;
+  }
+
+  /* Modal Content/Box */
+  .ModalForm {
+    width: 65%;
+  }
+  /* Modal Content/Box */
+
+  /*Header sign in form styling*/
+  #home_header {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 2fr;
+    justify-items: center;
+    align-items: center;
+    margin: 0 10%;
+    color: #fff;
+  }
+  #home_header > div {
+    height: 45px;
+  }
+  .logo {
+    padding: 0;
+  }
+  .sign_in {
+    width: 100%;
+    grid-column: 3/5;
+    display: flex;
+  }
+  #sign_in {
+    margin-right: 15%;
+    width: 90%;
+  }
+  #enteredUserID {
+    width: 45% !important;
+    margin: 2.5% 0 0 0;
+    font-size: 14px !important;
+    height: 25px !important;
+  }
+  #enteredUserCode {
+    width: 30% !important;
+    margin-left: 2.5%;
+    font-size: 14px !important;
+    height: 25px !important;
+  }
+  #sign_in button {
+    width: 15%;
+    font-size: 14px;
+    height: 25px !important;
+  }
+  #logiErr {
+    width: 60%;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  #forget {
+    width: 30%;
+    padding-right: 0;
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-right: 10%;
+  }
+  /*Header sign in form styling*/
+
+  /*Search Field Styling*/
+  .searchBox {
+    justify-content: flex-start !important;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    padding: 0;
+  }
+  .searchBox > div {
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    height: 50%;
+  }
+  #searchTxt {
+    order: 2;
+  }
+  #searchField {
+    border: 0;
+  }
+
+  #searchField a {
+    /* width: 12%;*/
+  }
+
+  /*Navigation after loging in in allpages*/
+  .navMenu {
+    align-items: center;
+    grid-column: 3/4;
+  }
+  #navMenu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+  }
+  #navMenu li a {
+    transition: 0.4s;
+    color: #fff;
+    order: 1;
+  }
+  #navMenu li a:hover,
+  #showMenuBtn:hover,
+  #hideMenuBtn:hover {
+    color: #f0a032;
+  }
+  #navMenu li a:active {
+    color: #f0a032;
+  }
+  /* start natification */
+  .natification_profile {
+    gap: 4%;
+    width: 100%;
+    height: 45px;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .natification_profile > div {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    height: 100%;
+  }
+  .natification_profile > div:hover {
+    background-color: #351147;
+  }
+  .natification_profile > div a {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+  }
+  .natification_profile > div li {
+    cursor: pointer;
+  }
+  .natification_profile > div li:hover {
+    color: #f0a032;
+  }
+
+  #img_natification > img {
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+  }
+  #natification_name > span {
+    text-align: center;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+  }
+
+  /* end natification */
+  /*Signp forms*/
+  #vol_form,
+  #ag_form {
+    width: 50%;
+  }
+  #vol_sign_up .containerBox {
+    width: 85%;
+    margin-right: 10%;
+    margin-left: 5%;
+  }
+  #agy_sign_up .containerBox {
+    width: 85%;
+    margin-right: 5%;
+    margin-left: 10%;
+  }
+  .containerBox button {
+    width: 30%;
+  }
+
+  /*Posts styling*/
+  #post {
+    margin: 2% 5%;
+    padding: 1%;
+  }
+  #post article h1,
+  article h2,
+  .bankInfoDetail article h1 {
+    font-size: 17px;
+  }
+  #post article p,
+  .bankInfoDetail article p {
+    font-size: 15px;
+  }
+
+  /*Bank information section*/
+  .bankInfoTitles h1 {
+    font-size: 20px;
+  }
+  /*.mangBox
+	{
+		width: 14%;
+	}
+	.mangBox img
+	{
+	    width: 70%;
+	    margin: 0 15%;
+	} Made it comment by Majd*/
+
+  /*Contact Us section*/
+  #conatctUsBox form {
+    width: 65%;
+    margin: 0 17.5%;
+  }
+  div#social_icons {
+    width: 30%;
+    margin: 10px 35%;
+  }
+
+  /*Container box image*/
+  .profileHead {
+    height: 45vh !important;
+  }
+  .profileHead img {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  /*Viewing volunteers in small boxes*/
+  #volsView .containerBox,
+  #begin_div_agency .containerBox {
+    width: 30%;
+    margin: 1.5%;
+  }
+  #volsView .containerBox .profileHead img,
+  #begin_div_agency .containerBox .profileHead img {
+    margin: 0 auto;
+  }
+
+  /*View volunteer page*/
+  #volsView .profileHead,
+  #agProfileView .profileHead {
+    height: 35vh;
+  }
+  .editPageBtn {
+    width: 15%;
+    margin: 5px 42.5%;
+    font-size: 17px;
+    padding-bottom: 30px;
+  }
+  #agProfileView .adminMangTools {
+    padding: 0 2.5%;
+  }
+  #agProfileView .adminMangTools form button {
+    width: 31%;
+  }
+  #agProfileView #chanceInfoBox .adminMangTools form button {
+    width: 90%;
+  }
+
+  /*view chances*/
+  #chanceAgProf {
+    width: 80%;
+    margin: 0.5% 10%;
+  }
+  #chanceAgProf .profileHead {
+    height: 6vw !important;
+  }
+  #chanceAgProf .profileHead img {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  /*View chance applicant*/
+  #apolicantsFrm {
+    width: 70%;
+    margin: 2% 15%;
+  }
+  .applicants_profile {
+    height: 6vw;
+  }
+  .applicants_profile img {
+    height: 6vw;
+    width: 6vw !important;
+  }
+  .applicants_profile .applicants_profile_Info {
+    width: calc(95% - 6vw);
+  }
+  .applicants_profile_Info .evaluateVolBtn,
+  .applicants_profile_Info .volAcceptedBtn,
+  .applicants_profile_Info .acceptVolAppBtn {
+    width: 30%;
+    margin: 0 10% 0 0;
+  }
+  .applicants_profile_Info .volRate {
+    width: 10%;
+  }
+  .applicant_Rate_Line {
+    width: 80%;
+    margin: 10px 2.5%;
+  }
+  .applicants_profile_Info .bovCheckBox {
+    width: 5%;
+  }
+
+  /*----- Modal Forms styling -----*/
+  .ModalForm button {
+    width: 15%;
+  }
+
+  /*Fogert password, 
+	agency & volunteer signup forms, and
+	Rate applicant form modals*/
+  #forgetPassMdl,
+  #changePassMdl,
+  #rateVolMdl {
+    width: 30%;
+  }
+  #forgetPassMdl label,
+  #volSignupTermsMdl label,
+  #agySignupTermsMdl label,
+  #changePassMdl label,
+  #rateVolMdl label {
+    font-size: 17px;
+  }
+
+  /*Add/Edit posts modal*/
+  #postInfoMdl,
+  #bnkInfDetailMdl {
+    width: 50%;
+  }
+  #pic {
+    width: 20%;
+  }
+
+  /*Chance information view*/
+  #viewChanceDetMdl,
+  #addEditChanceMdl,
+  #agNewInfoMdl,
+  #vlNewInfoMdl,
+  #volEditAddExpMdl {
+    width: 55%;
+  }
+  #chanceTasksInfo,
+  #chanceTermsInfo,
+  #chanceTasksInfo h3,
+  #chanceTermsInfo h3,
+  #chanceTasksInfo h4,
+  #chanceTermsInfo h4 {
+    width: 50% !important;
+  }
+  .ModalForm #chanceGenInfo h4 {
+    width: 13%;
+  }
+  .ModalForm #chanceGenInfo h3 {
+    width: 12%;
+  }
+
+  /*Add/Edit chance*/
+  #addEditChanceMdl .containerBox div {
+    width: 45%;
+    margin: 2.5%;
+  }
+  #chnNoteInfo {
+    width: 100% !important;
+  }
+  #chnFileInfo {
+    width: 40%;
+    margin: 2.5% 30% !important;
+  }
+  #chnFileInfo button {
+    width: 30%;
+    margin: 0;
+  }
+
+  /*Agency edit their info*/
+  #agNewInfoMdl .containerBox div {
+    width: 50%;
+    padding: 0 2%;
+  }
+  #agNewApprPhone h6 {
+    width: 13% !important;
+    margin: 0.5% 1% !important;
+  }
+  #agNewApprPhone input {
+    width: 34% !important;
+    margin: 0.5% !important;
+  }
+  #agNewInfoMdl .profileHead,
+  #agNewInfoMdl #agNewApprPhone {
+    width: 100% !important;
+  }
+
+  /*Volunteer edit their page form*/
+  #vlNewInfoMdl .containerBox div,
+  #volEditAddExpMdl .containerBox div {
+    width: 48%;
+    margin: 2.5% 1%;
+  }
+  #vlNewInfoMdl .containerBox .profileHead {
+    width: 100%;
+  }
+  #vlNewPassInfo {
+    width: 60% !important;
+    margin: 2.5% 20% !important;
+  }
+  #vlExpCategoryInfo {
+    width: 100%;
+  }
+  #vlExpDescInfo textarea {
+    height: 100px;
+  }
+  /*Volunteer add/edit their experiences form*/
+
+  /* Majd editing */
+  /* Control panel */
+
+  .separate {
+    margin: 50px auto 10px;
+    width: 80%;
+    height: 4px;
+    background-color: #f0a032;
+  }
+  .panel button {
+    margin: 15px auto;
+  }
+  #agy_div_admin h {
+    width: 10%;
+    margin: 5px 45%;
+    font-weight: 900;
+  }
+  #agy_div_admin label {
+    width: 30%;
+    margin: 0 3% 0 0;
+  }
+  #agy_div_admin button {
+    margin: 10px auto 50px;
+  }
+  .HL {
+    width: 10%;
+    color: #f0a032;
+    margin: 0 45%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .HL2 {
+    width: 15%;
+    color: #f0a032;
+    margin: 0 42.5%;
+    font-size: 25px;
+    text-align: center;
+  }
+  #adminAddedByLbl {
+    margin: 0 auto 25px;
+  }
+
+  .mangBox {
+    width: 40%;
+    margin: 10px auto 10px;
+  }
+
+  .mangBox img {
+    width: 150px;
+    height: 150px;
+    margin: 0 30%;
+    background-position: center;
+  }
+  .mangBox #mang_name,
+  #title {
+    width: 30%;
+
+    margin: 5px 35%;
+  }
+
+  #notificationContainer {
+    background-color: #fff;
+    border: 1px solid rgba(100, 100, 100, 0.4);
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    left: 5%;
+    top: 12%;
+    width: 350px;
+    height: 70%;
+    z-index: 2;
+    overflow-y: scroll;
+    border-radius: 5px 5px;
+    display: none; // Enable this after jquery implementation
+  }
+}
